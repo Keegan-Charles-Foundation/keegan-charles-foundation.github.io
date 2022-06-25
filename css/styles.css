@@ -19,7 +19,7 @@ body  {
 
 .slideshowContainer {
   width: 98%;
-  height: 45%;
+  height: 30vh;
   background-color: var(--xiketic);
   border-radius: 15px;
 }
