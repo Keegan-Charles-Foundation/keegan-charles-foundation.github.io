@@ -63,16 +63,13 @@ body  {
   background-color: var(--ivory);
   border-radius: 15px;
   float: left;
+  display: inline;
 }
 .navSection h1  {
   margin-left: 2%;
   text-decoration: underline;
 }
-.navSection hr  {
-  margin-left: 1%;
-  width: 50%;
-}
 .navSection a {
   margin-left: 8%;
-  width: 80%;
+  width: 10%;
 }
