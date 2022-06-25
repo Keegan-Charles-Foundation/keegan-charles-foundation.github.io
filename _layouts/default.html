@@ -25,7 +25,7 @@
 				<h2>{{ site.description | default: site.github.project_tagline }}</h2>
 			</div>
 		</header> -->
-		<nav>
+		<nav class="navSection">
 			 {% for item in site.data.navigation %}
 			<a href="{{ item.link }}" {% if page.url == item.link %} style="color: #d38700;"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
 				<span class="icon" style="background: url('/images/{{ item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>
