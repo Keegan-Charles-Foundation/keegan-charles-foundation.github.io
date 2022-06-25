@@ -17,14 +17,6 @@
 		{% seo %}
 	</head>
 	<body>
-<!--		<header>
-			<div class="container">
-				<a id="a-title" href="{{ '/' | relative_url }}">
-					<h1>{{ site.title | default: site.github.repository_name }}</h1>
-				</a>
-				<h2>{{ site.description | default: site.github.project_tagline }}</h2>
-			</div>
-		</header> -->
 		<nav class="navSection">
 			 {% for item in site.data.navigation %}
 			<a href="{{ item.link }}" {% if page.url == item.link %} style="color: #d38700;"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">

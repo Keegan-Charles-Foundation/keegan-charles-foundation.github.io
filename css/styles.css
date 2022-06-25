@@ -29,7 +29,7 @@ body  {
 
 
 .mainContent  {
-  width: 70%;
+  width: 85%;
   float: left;
   /* height: 150%; */
   margin-top: 2%;
@@ -56,13 +56,13 @@ body  {
 }
 
 .navSection  {
-  width: 25%;
-  height: 40%;
+  width: 85%;
+  height: 10%;
   margin-right: 1%;
   margin-top: 2%;
   background-color: var(--ivory);
   border-radius: 15px;
-  float: right;
+  float: left;
 }
 .navSection h1  {
   margin-left: 2%;
