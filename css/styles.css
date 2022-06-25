@@ -19,13 +19,13 @@ body  {
 
 .slideshowContainer {
   width: 98%;
-  height: 30vh;
+  height: 30%;
   background-color: var(--xiketic);
   border-radius: 15px;
 }
-/*.carousel-item  img {
+.carousel-item  img {
   height: 95%;
-}*/
+}
 
 
 .mainContent  {
