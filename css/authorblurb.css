@@ -1,0 +1,18 @@
+.author-bio	{
+	width: 50%;
+	float: right;
+	border-radius: 12px;
+	border-width: 3px;
+	border-style: groove;
+	border-color: #0066ff;
+	padding-left: 4px;
+	margin-top: 5%;
+}
+
+.author-bio	img	{
+	float: right;
+}
+
+.author-bio	.social-link	{
+	padding-left: 8px;
+}
