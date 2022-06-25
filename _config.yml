@@ -1,0 +1,13 @@
+title: Keegan Charles Foundation
+email: kcf@astragroup.info
+url: https://keegan-charles-foundation.github.io
+plugins: 
+  - jekyll-feed
+  - jekyll-paginate
+paginate: 5
+timezone: America/Denver
+encoding: utf-8
+livereload: true
+livereload_min_delay: 60
+livereload_max_delay: 600
+author: "Keegan Charles Foundation"
