@@ -23,9 +23,9 @@ body  {
   background-color: var(--xiketic);
   border-radius: 15px;
 }
-.carousel-item  img {
+/*.carousel-item  img {
   height: 95%;
-}
+}*/
 
 
 .mainContent  {
