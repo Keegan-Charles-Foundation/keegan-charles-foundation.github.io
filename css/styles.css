@@ -57,7 +57,7 @@ body  {
 
 .navSection  {
   width: 85%;
-  height: 22%;
+  height: 128px;
   background-color: var(--ivory);
   border-radius: 15px;
   /* float: left; */
