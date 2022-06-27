@@ -13,7 +13,6 @@
 
 body    {
     background-color: var(--astronaut);
-    /*color: var(--dim-gray);*/
     font-family: 'Baloo 2';
 }
 
@@ -24,7 +23,7 @@ body    hr  {
 .navSection {
     min-height: 64px;
     background-color: var(--ivory);
-    max-width: 50%;
+    max-width: 70%;
     min-width: 25%;
     border-radius: 5px;
     margin-left: 3%;
@@ -76,12 +75,17 @@ body    hr  {
 .mainContent    h2  {
     color: var(--dim-gray);
     margin-left: 3%;
+    margin-top: 1%;
 }
 
 .mainContent    p   {
     color: var(--dim-gray);
     margin-left: 3%;
     margin-right: 3%;
+}
+
+.mainContent    .manyShapes {
+    color: var(--astronaut);
 }
 
 .mainPosts    {
@@ -132,4 +136,78 @@ body    hr  {
     background-color: var(--funky-blue);
     border-radius: 5px;
     margin-right: 1%;
+}
+
+.mission    {
+    color: var(--red-crayola);
+    margin-left:3%;
+    margin-top: 3%;
+    background-color: var(--ivory);
+    border-radius: 5px;
+}
+
+.mission    h1  {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.vision    {
+    color: var(--red-crayola);
+    margin-left:3%;
+    margin-top: 3%;
+    background-color: var(--ivory);
+    border-radius: 5px;
+    float: left;
+}
+
+.vision    h1  {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.manyShapes    {
+    color: var(--astronaut);
+    margin-left:3%;
+    margin-top: 3%;
+    background-color: var(--ivory);
+    border-radius: 5px;
+    float: left;
+}
+
+.manyShapes    h2  {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.memorialSummary    {
+    background-color: var(--ivory);
+    border-radius: 5px;
+}
+
+.memorialSummary    h2   {
+    margin-left: 2%;
+}
+
+.memorialPhoto  {
+    float: right;
+    background-color: var(--ivory);
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.memorialPhoto  p   {
+    margin-left: 2%;
+}
+
+.memorialFull   {
+    background-color: var(--ivory);
+    border-radius: 5px;
+    margin-right: 2%;
+    max-width: 80%;
+}
+
+.memorialFull   p   {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 1.25em;
 }

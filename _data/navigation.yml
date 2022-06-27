@@ -2,9 +2,11 @@
   link: /
 - name: About
   link: /about.html
-- name: Connect
-  link: mailto:delta@astragroup.info?Subject=KCF%20Inquiry
 - name: Scholarship
   link: /scholarship.html
 - name: Donate
   link: /donate.html
+- name: Memorial
+  link: /memorial.html
+- name: Contact
+  link: mailto:delta@astragroup.info?Subject=KCF%20Inquiry

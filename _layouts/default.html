@@ -16,7 +16,6 @@
         <nav class="navSection">
             {% for item in site.data.navigation %}
             <a href="{{ item.link }}" {% if page.url == item.link %} style="color: var(--red-crayola);"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
-                <!--<span class="icon" style="background: url('/images/{{item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>-->
                 {{ item.name }}
             </a>
             {% endfor %}
