@@ -21,14 +21,12 @@ NOTES TO SELF:
     </head>
     <body>
         <nav class="navSection">
-            <center>
             {% for item in site.data.navigation %}
             <a href="{{ item.link }}" {% if page.url == item.link %} style="color: #d38700;"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
                 <span class="icon" style="background: url('/images/{{item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>
                 {{ item.name }}
             </a>
             {% endfor %}
-            </center>
         </nav>
         <br />
         <hr />
@@ -65,11 +63,11 @@ NOTES TO SELF:
             <div class="mainContent">
                 <h1>Posts:</h1>
                 <hr />
-                {% for post in site.posts limit:5 %}
+                {% for post in site.posts limit:15 %}
                     <a href="{{ post.url }}">
                         <h2>{{ post.title }}</h2>
                         <p>{{ post.date | date: "%m/%d/%Y %H:%M"}}</p>
-                        <p>{{ post.excerpt | truncate_words: 5 }}</p>
+                        <p>{{ post.excerpt | truncatewords: 15 }}</p>
                     </a>
                     <hr />
                 {% endfor %}
