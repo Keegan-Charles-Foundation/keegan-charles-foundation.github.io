@@ -30,4 +30,51 @@ body    {
 
 .navSection center  a   {
     margin: 0px;
+    font-size: 2em;
+}
+
+.primaryContent {
+    max-width: 65%;
+}
+
+.slideshowContainer {
+    margin-left: 3%;
+    border-radius: 5px;
+    background-color: var(--xiketic);
+}
+
+.carousel-item  img {
+    max-height: 512px;
+    min-height: 256px;
+}
+
+.mainContent    {
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color: var(--ivory);
+    border-radius: 5px;
+}
+
+.mainContent  h1 {
+  margin-left: 2%;
+  text-decoration: underline;
+}
+
+.mainContent  hr  {
+  margin-left: 1%;
+  width: 50%;
+}
+
+.mainContent    h2  {
+    margin-left: 2%;
+}
+
+.mainContent  h3  {
+  margin-left: 3%;
+  width: 80%;
+}
+
+.mainContent  p {
+  margin-left: 5%;
+  width: 90%;
 }

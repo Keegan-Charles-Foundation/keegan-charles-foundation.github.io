@@ -1,6 +1,5 @@
 - name: Home
   link: /
-  img: /home.png
 - name: About
   link: /about.html
 - name: Connect
