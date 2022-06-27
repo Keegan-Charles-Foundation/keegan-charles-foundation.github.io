@@ -12,8 +12,8 @@
 }
 
 body    {
-    background-color: var(--funky-blue);
-    color: var(--dim-gray);
+    background-color: var(--astronaut);
+    /*color: var(--dim-gray);*/
     font-family: 'Baloo 2';
 }
 
@@ -30,6 +30,7 @@ body    hr  {
     margin-left: 3%;
     padding: 0px;
     text-align: center;
+    color: var(--dim-gray);
 }
 
 .navSection a   {
@@ -64,7 +65,23 @@ body    hr  {
     margin-left: 3%;
     padding-right: 0px;
     margin-right: 0px;
-    
+}
+
+.mainContent    h1  {
+    color: var(--red-crayola);
+    margin-left:2%;
+    margin-top: 2%;
+}
+
+.mainContent    h2  {
+    color: var(--dim-gray);
+    margin-left: 3%;
+}
+
+.mainContent    p   {
+    color: var(--dim-gray);
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .mainPosts    {
@@ -75,7 +92,7 @@ body    hr  {
     border-radius: 5px;
     float: right;
     width: 25%;
-    
+    color: var(--dim-gray);
 }
 
 .mainPosts  a {
@@ -86,6 +103,7 @@ body    hr  {
 .mainPosts  h1 {
   margin-left: 2%;
   text-decoration: none;
+  color: var(--dim-gray);
 }
 
 .mainPosts  hr  {
@@ -104,4 +122,14 @@ body    hr  {
   width: 90%;
   color: var(--dim-gray);
   text-decoration: none;
+}
+
+.footer {
+    color: var(--red-crayola);
+    min-width: 98%;
+    margin-top: 10%;
+    float: right;
+    background-color: var(--funky-blue);
+    border-radius: 5px;
+    margin-right: 1%;
 }

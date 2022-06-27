@@ -22,8 +22,8 @@ NOTES TO SELF:
     <body>
         <nav class="navSection">
             {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" {% if page.url == item.link %} style="color: #d38700;"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
-                <span class="icon" style="background: url('/images/{{item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>
+            <a href="{{ item.link }}" {% if page.url == item.link %} style="color: var(--red-crayola);"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
+                <!--<span class="icon" style="background: url('/images/{{item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>-->
                 {{ item.name }}
             </a>
             {% endfor %}
@@ -60,7 +60,12 @@ NOTES TO SELF:
         </div>
         <div class="primaryContent">
             <div class="mainContent">
-                <p>doop</p>
+                <h1>The Keegan Charles Foundation's mission is to give strength through learning and connection for neurodivergent and LGBT youth with personal development and education.</h1>
+                <h2>The Keegan Charles Foundation was established in 2021.</h2>
+                <p>Keegan Charles Smith was an avid supporter of the underdog and a champion for justice. Keegan wanted everyone to find their passion, care deeply, and give generously.</p>
+                <p>KCF is a memorial scholarship fund established in Keegan’s name with the intention of providing support for neurodivergent and LGBTQ youth. We offer memorial grants and scholarships for personal development and educational opportunities to allow these young people to connect with others.</p>
+                <p>We encourage our potential scholarship winners to carry that sense of achievement into accomplishments that will bring them their dreams.</p>
+
             </div>
             <div class="mainPosts">
                 <h1>Posts:</h1>
@@ -74,5 +79,7 @@ NOTES TO SELF:
                     <hr />
                 {% endfor %}
             </div>
+            {% include footer.html %}
         </div>
-
+    </body>
+</html>
