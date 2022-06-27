@@ -21,12 +21,14 @@ NOTES TO SELF:
     </head>
     <body>
         <nav class="navSection">
+            <center>
             {% for item in site.data.navigation %}
             <a href="{{ item.link }}" {% if page.url == item.link %} style="color: #d38700;"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
                 <span class="icon" style="background: url('/images/{{item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>
                 {{ item.name }}
             </a>
             {% endfor %}
+            </center>
         </nav>
         <br />
         <hr />

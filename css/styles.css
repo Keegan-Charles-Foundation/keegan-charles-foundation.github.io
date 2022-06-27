@@ -11,61 +11,23 @@
   --red-crayola: #e84855;
 }
 
-body  {
-  background-color: var(--funky-blue);
-  color: var(--dim-gray);
-  font-family: 'Baloo 2';
+body    {
+    background-color: var(--funky-blue);
+    color: var(--dim-gray);
+    font-family: 'Baloo 2';
 }
 
-.slideshowContainer {
-  width: 98%;
-  height: 30%;
-  background-color: var(--xiketic);
-  border-radius: 15px;
-}
-.carousel-item  img {
-  height: 95%;
-}
-
-
-.mainContent  {
-  width: 85%;
-  float: left;
-  /* height: 150%; */
-  margin-top: 2%;
-  margin-left: 1%;
-  margin-bottom: 2%;
-  background-color: var(--ivory);
-  border-radius: 15px;
-}
-.mainContent  h1 {
-  margin-left: 2%;
-  text-decoration: underline;
-}
-.mainContent  hr  {
-  margin-left: 1%;
-  width: 50%;
-}
-.mainContent  h3  {
-  margin-left: 3%;
-  width: 80%;
-}
-.mainContent  p {
-  margin-left: 5%;
-  width: 90%;
+.navSection {
+    min-height: 64px;
+    background-color: var(--ivory);
+    max-width: 50%;
+    min-width: 25%;
+    border-radius: 5px;
+    margin-left: 3%;
+    padding: 0px;
+    text-align: center;
 }
 
-.navSection  {
-  width: 85%;
-  height: 128px;
-  background-color: var(--ivory);
-  border-radius: 15px;
-  /* float: left; */
-  display: inline;
-}
-.navSection h1  {
-  text-decoration: underline;
-}
-.navSection a {
-  margin-left: 2%;
+.navSection center  a   {
+    margin: 0px;
 }
