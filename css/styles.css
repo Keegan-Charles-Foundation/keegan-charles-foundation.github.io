@@ -17,6 +17,10 @@ body    {
     font-family: 'Baloo 2';
 }
 
+body    hr  {
+    color: var(--red-crayola);
+}
+
 .navSection {
     min-height: 64px;
     background-color: var(--ivory);
@@ -34,13 +38,14 @@ body    {
 }
 
 .primaryContent {
-    max-width: 65%;
+    max-width: 98%;
 }
 
 .slideshowContainer {
     margin-left: 3%;
     border-radius: 5px;
     background-color: var(--xiketic);
+    width: 95%;
 }
 
 .carousel-item  img {
@@ -49,34 +54,52 @@ body    {
 }
 
 .mainContent    {
+    float: left;
+    border-radius: 5px;
+    background-color: var(--ivory);
+    max-width: 69%;
+    min-width: 69%;
+    min-height: 25%;
     margin-top: 3%;
     margin-left: 3%;
-    background-color: var(--ivory);
-    border-radius: 5px;
+    padding-right: 0px;
+    margin-right: 0px;
+    
 }
 
-.mainContent  a {
+.mainPosts    {
+    margin-top: 3%;
+    margin-left: 3%;
+    padding-left: 0px;
+    background-color: var(--ivory);
+    border-radius: 5px;
+    float: right;
+    width: 25%;
+    
+}
+
+.mainPosts  a {
     text-decoration: none;
     color: var(--red-crayola);
 }
 
-.mainContent  h1 {
+.mainPosts  h1 {
   margin-left: 2%;
   text-decoration: none;
 }
 
-.mainContent  hr  {
+.mainPosts  hr  {
   margin-left: 1%;
   width: 85%;
   color: var(--red-crayola);
 }
 
-.mainContent    h2  {
+.mainPosts    h2  {
     margin-left: 4%;
     text-decoration: underline;
 }
 
-.mainContent p {
+.mainPosts p {
   margin-left: 7%;
   width: 90%;
   color: var(--dim-gray);
