@@ -70,7 +70,7 @@ NOTES TO SELF:
             <div class="mainPosts">
                 <h1>Posts:</h1>
                 <hr />
-                {% for post in site.posts limit:15 %}
+                {% for post in site.posts limit:5 %}
                     <a href="{{ post.url }}">
                         <h2>{{ post.title }}</h2>
                         <p>{{ post.date | date: "%m/%d/%Y %H:%M"}}</p>
