@@ -4,9 +4,10 @@
 	border-radius: 12px;
 	border-width: 3px;
 	border-style: groove;
-	border-color: #0066ff;
+	border-color: var(--xiketic);
 	padding-left: 4px;
 	margin-top: 5%;
+	background-color: var(--ivory);
 }
 
 .author-bio	img	{

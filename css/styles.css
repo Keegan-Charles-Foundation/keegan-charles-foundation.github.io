@@ -211,3 +211,43 @@ body    hr  {
     margin-top: 2%;
     font-size: 1.25em;
 }
+
+.allPosts    {
+    margin-top: 3%;
+    margin-left: 3%;
+    padding-left: 0px;
+    background-color: var(--ivory);
+    border-radius: 5px;
+    float: left;
+    width: 85%;
+    color: var(--dim-gray);
+}
+
+.allPosts  a {
+    text-decoration: none;
+    color: var(--red-crayola);
+}
+
+.allPosts  h1 {
+  margin-left: 2%;
+  text-decoration: none;
+  color: var(--dim-gray);
+}
+
+.allPosts  hr  {
+  margin-left: 1%;
+  width: 85%;
+  color: var(--red-crayola);
+}
+
+.allPosts    h2  {
+    margin-left: 4%;
+    text-decoration: underline;
+}
+
+.allPosts p {
+  margin-left: 7%;
+  width: 90%;
+  color: var(--dim-gray);
+  text-decoration: none;
+}

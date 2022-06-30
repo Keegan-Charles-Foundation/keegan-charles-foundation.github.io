@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/css/strangeCases.css">
+<div class="allPosts">
+    <h1>Posts:</h1>
+    <hr />
+    {% for post in site.posts %}
+        <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.date | date: "%m/%d/%Y %H:%M"}}</p>
+            <p>{{ post.excerpt | markdownify | strip_html | truncatewords: 12 }}</p>
+        </a>
+        <hr />
+    {% endfor %}
+</div>

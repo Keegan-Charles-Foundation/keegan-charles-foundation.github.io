@@ -1,17 +1,30 @@
 ---
 layout: default
 ---
-<!-- <link rel="stylesheet" href="/authorblurb.css"> -->
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+<link rel="stylesheet" href="/css/authorblurb.css">
+<link rel="stylesheet" href="/css/strangeCases.css">
+<div class="mainContent">
+    <small>{{ page.date | date: "%-d %B %Y" }}</small>
+    <h1>{{ page.title }}</h1>
+    <p class="view">by {{ page.author | default: site.author }}</p>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
+    {{content}}
 
-{{content}}
-
-
-
-<hr>
+</div>
+<div class="mainPosts">
+    <h1>Posts:</h1>
+    <hr />
+    {% for post in site.posts limit:15 %}
+        <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.date | date: "%m/%d/%Y %H:%M"}}</p>
+            <p>{{ post.excerpt | truncatewords: 12 }}</p>
+        </a>
+        <hr />
+    {% endfor %}
+    <hr />
+    <a href=""><h2>All Posts</h2></a>
+</div>
 
 {% assign authorData = site.data.authors[site.author] %}
 
@@ -24,4 +37,4 @@ layout: default
     <br>
     {% endfor %}
 </div>
-<h5>Site Last Updated: {{ site.time | date: "%m/%d/%Y %H:%M" }}</h5>
+<!--<h5>Site Last Updated: {{ site.time | date: "%m/%d/%Y %H:%M" }}</h5>-->
