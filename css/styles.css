@@ -2,6 +2,7 @@
 /* coolers link: */
 /* https://coolors.co/111122-0e1428-626267-ffffee-e84855 */
 :root {
+    /*Set one*/
   --funky-blue: #212e5e;
   --astronaut: #2b3d7b;
   --oxford-blue: #0E1428;
@@ -9,6 +10,10 @@
   --ivory: #FFFFEE;
   --xiketic: #111122;
   --red-crayola: #e84855;
+    /*Set Two*/
+  --steel1: #4e5e73;
+  --steel2: #28303b;
+  
 }
 
 body    {
