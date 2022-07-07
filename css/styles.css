@@ -84,7 +84,7 @@ body    hr  {
     margin-top: 1%;
 }
 
-.mainContent    p   {
+.mainContent    h3   {
     color: var(--dim-gray);
     margin-left: 3%;
     margin-right: 3%;
