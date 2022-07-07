@@ -7,4 +7,9 @@ Rax Ventus:
     - type: GitTea
       url: https://git.astragroup.info/rax
 
-
+Keegan Charles Foundation:
+  image: KCF_round.png
+  bio: Combined account for continuity purposes.
+  socials:
+    - type: GitHub
+      url: https://github.com/Keegan-Charles-Foundation
