@@ -13,16 +13,17 @@
     /*Set Two*/
   --steel1: #4e5e73;
   --steel2: #28303b;
-  
+
 }
 
 body    {
-    background-color: var(--astronaut);
+    background-color: var(--steel1);
     font-family: 'Baloo 2';
 }
 
 body    hr  {
     color: var(--red-crayola);
+    height: 
 }
 
 .navSection {
